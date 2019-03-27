@@ -11,6 +11,7 @@ async function getLatestVersion(page, url) {
 (async () => {
   try {
     const browser = await puppeteer.launch({
+      executablePath: '/usr/bin/chromium-browser',
       args: [
         '--no-sandbox', 
         '--disable-setuid-sandbox'

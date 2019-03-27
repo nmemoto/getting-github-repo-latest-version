@@ -9,4 +9,12 @@ $ node index.js aws/aws-cli
 1.16.132
 ```
 
+## Dockerでの使い方
+上記同じことは以下で実行できる
+```
+$ docker run --rm -it nmemoto/grlr aws/aws-cli   
+1.16.132
+```
+
+
 
