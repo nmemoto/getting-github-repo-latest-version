@@ -1,0 +1,16 @@
+{
+  "name": "github-repo-latest-release",
+  "version": "0.0.1",
+  "description": "github-repo-latest-release",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "author": "nmemoto",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^1.13.0"
+  },
+  "devDependencies": {}
+}
